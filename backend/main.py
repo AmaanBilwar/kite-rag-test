@@ -164,7 +164,7 @@ if len(all_splits) > 0:
     print("="*50)
     
     test_questions = [
-        "what languge is the code in main.py written in?"
+        "what languge is the code in main.py written in & what is it trying to implement?"
     ]
     
     for question in test_questions:

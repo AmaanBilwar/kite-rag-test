@@ -47,7 +47,7 @@ except Exception as e:
 
 # Define the directory containing your code files
 # You can add multiple directories or specific file paths
-documents = "C:/Users/amaan/OneDrive/Documents/coding/kite-rag/backend/"  
+documents = "C:/Users/amaan/OneDrive/Documents/coding/kite-rag/backend/testdir"  
 
 embedding_dim = len(test_embedding)
 index = faiss.IndexFlatL2(embedding_dim)
@@ -164,7 +164,7 @@ if len(all_splits) > 0:
     print("="*50)
     
     test_questions = [
-        "what languge is the code in main.py written in?"
+        "what languge is the code in main.py written in & what is it trying to implement?"
     ]
     
     for question in test_questions:
