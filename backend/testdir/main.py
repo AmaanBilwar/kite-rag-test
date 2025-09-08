@@ -47,7 +47,7 @@ except Exception as e:
 
 # Define the directory containing your code files
 # You can add multiple directories or specific file paths
-documents = "C:/Users/amaan/OneDrive/Documents/coding/kite-rag/backend/testdir"  
+documents = "C:/Users/amaan/OneDrive/Documents/coding/kite-rag/backend/"  
 
 embedding_dim = len(test_embedding)
 index = faiss.IndexFlatL2(embedding_dim)
